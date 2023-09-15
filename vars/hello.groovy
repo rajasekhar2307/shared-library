@@ -2,4 +2,5 @@
 
 def call(String name = 'Minato Namikaze') {
   echo "Orewa, ${name}"
+  sh "node --version"
 }
