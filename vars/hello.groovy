@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-def call(String name = 'Minato Namikaze') {
-  echo "Orewa, ${name}"
+def call() {
+  echo "Orewa, Namikaze Minato"
   sh "node --version"
 }
